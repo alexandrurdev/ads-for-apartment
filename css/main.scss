@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$primary: #b51f21;
+$secondary: #22b51f;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
-    color: blue;
+    color: $primary;
+}
+
+img{
+    max-width:180px;
+    max-height: 180px;
+    display: inline-block;
+    margin: 5px 5px 20px;
+}
+
+#adForm {
+    label {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .btn-primary {
+        padding: 5px 15px;
+        border-radius: 5px 0 5px 0;
+        border-color: $primary;
+        background-color: $primary;
+        transition: 0.3s all ease;
+
+        &:hover {
+            color: $primary;
+            font-weight: 700;
+            background-color: #fff;
+            border-color: $secondary;
+        }
+    }
+
+    input {
+        color: $secondary;
+        border-radius: 2px;
+    }
 }

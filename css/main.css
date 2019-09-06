@@ -1,4 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
-  color: blue;
+  color: #b51f21;
+}
+
+img {
+  max-width: 180px;
+  max-height: 180px;
+  display: inline-block;
+  margin: 5px 5px 20px;
+}
+
+#adForm label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#adForm .btn-primary {
+  padding: 5px 15px;
+  border-radius: 5px 0 5px 0;
+  border-color: #b51f21;
+  background-color: #b51f21;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+#adForm .btn-primary:hover {
+  color: #b51f21;
+  font-weight: 700;
+  background-color: #fff;
+  border-color: #22b51f;
+}
+
+#adForm input {
+  color: #22b51f;
+  border-radius: 2px;
 }
 /*# sourceMappingURL=main.css.map */
